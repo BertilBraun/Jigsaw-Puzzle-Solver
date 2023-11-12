@@ -1,0 +1,5 @@
+Pillow
+opencv-python
+sentence-transformers
+numpy
+matplotlib
