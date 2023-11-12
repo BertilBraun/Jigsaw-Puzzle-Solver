@@ -1,1 +1,5 @@
 env/
+static/
+uploads/
+__pycache__/
+temp.*

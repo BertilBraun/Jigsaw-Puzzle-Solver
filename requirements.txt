@@ -3,3 +3,4 @@ opencv-python
 sentence-transformers
 numpy
 matplotlib
+Flask

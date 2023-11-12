@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+  <title>Processed Image</title>
+</head>
+<body>
+  <h1>Processed Image</h1>
+  <img src="{{ url_for('static', filename=output_file) }}" alt="Processed Image"/>
+  <img src="{{ url_for('static', filename=input_file) }}" width="200" height="200" alt="Cropped input Image"/>
+  <h2>Upload Another Image</h2>
+  <form method="post" action="/" enctype="multipart/form-data">
+    <input type="file" name="file" onchange="this.form.submit()">
+  </form>
+</body>
+</html>
