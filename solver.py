@@ -293,5 +293,5 @@ def puzzle_solver(puzzle_image_path: str, puzzle_dims: DIMS):
 
 if __name__ == "__main__":
     # Example usage
-    # puzzle_solver("puzzle2.png", (6, 8))
-    crop_piece(load_image("crop_piece.jpg")).show()
+    # puzzle_solver("samples/puzzle2.png", (6, 8))
+    crop_piece(load_image("samples/crop_piece.jpg")).show()
